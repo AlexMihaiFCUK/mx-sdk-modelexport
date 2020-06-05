@@ -30,11 +30,16 @@ In the src folder, create a file config.json (see config.json.example for a samp
 
 **auth.apikey**: An api key that you have generated for your Mendix login (not a project api key)
 
-### project
+To generate it, log into https://sprintr.home.mendix.com/, click on your avatar at the top right of the page and the click on "My Profile".
+On the profile page click the cog on the right.
+On the new page, click the "API Keys@ tab and then "Create new API key"
+https://docs.mendix.com/developerportal/mendix-profile/#api-key
+
+### app
 ```
 {
     ...
-    "project":{
+    "app":{
         "id":"",
         "name":"",
         "branch": ""
@@ -43,11 +48,16 @@ In the src folder, create a file config.json (see config.json.example for a samp
 }
 ```
 
-**project.id**: The id of your project
+**app.id**: The id of your app
 
-**project.name**: The name of your project
+To find it, from https://sprintr.home.mendix.com click on "Apps" at the top, then "My Apps".
+From the "My Apps" list click on the app you're looking for.
+On the App page click on "General" under "Settings" on the left.
+There you will find the App ID 
 
-**project.branch**: The name of the branch you want to use (or empty string for the main line)  
+**app.name**: The name of your app
+
+**app.branch**: The name of the branch you want to use (or empty string for the main line)  
 
 ## Run the script
 Compile and run the script by running the following command:

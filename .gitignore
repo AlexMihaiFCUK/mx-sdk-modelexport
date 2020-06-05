@@ -1,8 +1,8 @@
 node_modules/
 typings/
-build/*
+build/
 *nbproject
 .vscode/
 reference/
-out/*
+out/
 src/config.json

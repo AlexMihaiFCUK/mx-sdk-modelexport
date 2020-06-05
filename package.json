@@ -1,7 +1,7 @@
 {
   "name": "mx-sdk-modelexport",
   "version": "1.0.0",
-  "description": "",
+  "description": "Set up your development tools by following the steps in this article:",
   "scripts": {
     "start": "tsc && node build/script.js"
   },
@@ -10,15 +10,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lindski/mx-sdk-modelexport.git"
+    "url": "git+https://github.com/AlexMihaiFCUK/mx-sdk-modelexport.git"
   },
   "dependencies": {
     "@types/when": "^2.4.33",
-    "mendixmodelsdk": "~4.19.0",
-    "mendixplatformsdk": "~4.1.0",
+    "mendixmodelsdk": "4.35.0",
+    "mendixplatformsdk": "4.1.1",
     "when": "^3.7.8"
   },
   "devDependencies": {
-    "@types/node": "^10.14.21"
+    "@types/node": "^10.17.24"
   }
 }

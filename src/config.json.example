@@ -3,7 +3,7 @@
         "username": "",
         "apikey": ""
     },
-    "project": {
+    "app": {
         "id": "",
         "name": "",
         "branch": ""

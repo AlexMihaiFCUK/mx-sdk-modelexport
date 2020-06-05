@@ -8,8 +8,8 @@ import fs = require('fs');
 var path = require('path');
 
 const client = new MendixSdkClient(config.auth.username, config.auth.apikey);
-const project = new Project(client,config.project.id, config.project.name);
-const revision = new Revision(-1, new Branch(project,config.project.branch)); // always use the latest revision
+const project = new Project(client,config.app.id, config.app.name);
+const revision = new Revision(-1, new Branch(project,config.app.branch)); // always use the latest revision
 
 async function serialize(){
     const wc : OnlineWorkingCopy = await client.platform().createOnlineWorkingCopy(project, revision);
